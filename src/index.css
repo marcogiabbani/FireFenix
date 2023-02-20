@@ -8,4 +8,18 @@
     margin: 0;
     height: 100vh;
     margin-bottom: 0px;
+    font-family: "NeueHaasGrotDisp55Roman";
 }
+
+@font-face {
+    font-family: "NeueHaasGrotDisp55Roman";
+    src: local("NeueHaasGrotDisp55Roman"),
+      url("../src/assets/Neue\ Haas\ Grot\ Disp-55\ Roman.otf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "NeueHaasGrotDisp65Medium";
+    src: local("NeueHaasGrotDisp65Medium"),
+      url("../src/assets/Neue\ Haas\ Grot\ Disp-65\ Medium.otf") format("truetype");
+  }
+  

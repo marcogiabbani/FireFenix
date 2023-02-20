@@ -1,5 +1,5 @@
 // static text
-import { Angel, Descanso, EfectoDoppler, Guitarrista, Origen, Pantera, Serendipia, Velvet } from '../assets'
+import { Rubi, Estertor, Alegre, Angel, Descanso, EfectoDoppler, Guitarrista, Origen, Pantera, Serendipia, Velvet, HombreSolo } from '../assets'
 
 export const navLinks = [
   {
@@ -16,6 +16,10 @@ export const navLinks = [
 ];
 
 export const artDisplay = [
+  {
+    id: 'HombreSolo',
+    content: HombreSolo
+  },
   {
     id: 'Angel',
     content: Angel
@@ -48,5 +52,46 @@ export const artDisplay = [
     id: 'Velvet',
     content: Velvet
   },
+  {
+    id: 'Alegre',
+    content: Alegre
+  },
+  {
+    id: 'Estertor',
+    content: Estertor
+  },
+  {
+    id: 'Rubi',
+    content: Rubi
+  },
 
 ]
+
+export const socialMedia = [
+  {
+    id: 'instagram',
+    title: 'Instagram',
+    link: 'https://www.instagram.com/firefenix.xyz/',
+  },
+  {
+    id: 'twitter',
+    title: 'Twitter',
+    link: 'https://twitter.com/firefenixxxx',
+  },
+  {
+    id: 'objkt',
+    title: 'Objkt',
+    link: 'https://objkt.com/profile/firefenix/created',
+  },
+  {
+    id: 'foundation',
+    title: 'Foundation',
+    link: 'https://foundation.app/@firefenix',
+  },
+  {
+    id: 'opensea',
+    title: 'Opensea',
+    link: 'https://opensea.io/es/collection/firefenix-collection',
+  }
+
+];

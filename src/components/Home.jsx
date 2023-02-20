@@ -1,9 +1,10 @@
 import React from 'react';
-import  { artDisplay }  from '../constants'
+import  { artDisplay, socialMedia }  from '../constants'
+
 
 function Home() {
   return (
-    <div className='h-full flex flex-col justify-between'>
+    <div className='h-[90%] flex flex-col justify-between'>
 
       {/* <div className="snap-x mx-auto snap-mandatory h-[80%] flex w-full overflow-scroll ">
         {artDisplay.map((painting) => {
@@ -14,7 +15,7 @@ function Home() {
         })}
       </div> */}
 
-      <div className="overflow-y-scroll snap snap-y snap-mandatory h-[80%] my-auto flex flex-col ">
+      <div className="overflow-y-scroll snap snap-y snap-mandatory h-1/2 my-auto flex flex-col ">
         {artDisplay.map((painting) => {
           return (
             <div key={painting.id} className="snap-start h-full flex-shrink-0 w-auto flex items-center justify-center px-2 ">
@@ -23,9 +24,17 @@ function Home() {
         })}
       </div>
 
-      <div className='flex flex-col h-[20%] pl-2 text-xl text-center'>
-        <span>Instagram</span>
-        <span>Twitter</span>
+      <div className='flex flex-col pl-2 text-xl text-center'>
+        {socialMedia.map((socialNetwork) => {
+          return (
+            <a target="_blank" href={`${socialNetwork.link}`} key={socialNetwork.id} rel="noreferrer">
+              <div  className="py-0.4">
+                <span>{socialNetwork.title}</span>
+              </div>
+            </a>
+          )
+        })}
+
       </div>
 
     </div>

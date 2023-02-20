@@ -14,7 +14,7 @@ function Navbar() {
 
       <div className='w-10/12 '>
         <Link to='/'>
-          <span className='text-6xl'>
+          <span className='text-6xl font-[NeueHaasGrotDisp65Medium]'>
                 FireFenix
           </span>
         </Link>
