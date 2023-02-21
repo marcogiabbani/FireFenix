@@ -15,7 +15,7 @@ function Home() {
         })}
       </div>
 
-      <div className='flex flex-col pl-2 text-xl text-center md:text-left md:text-xs'>
+      <div className='flex flex-col pl-2 text-xl text-center md:text-left md:text-base '>
         {socialMedia.map((socialNetwork) => {
           return (
             <a target="_blank" href={`${socialNetwork.link}`} key={socialNetwork.id} rel="noreferrer">

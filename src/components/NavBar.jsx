@@ -10,11 +10,11 @@ function Navbar() {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="min-w-[250px] max-h-20 flex justify-between md:px-5 md:py-3 md:w-auto">
+    <nav className="min-w-[250px] max-h-20 flex justify-between sm:px-5 md:py-3 md:w-auto lg:max-h-fit  lg:pt-6">
 
       <div className='w-10/12 sm:w-2/3 md:w-2/3 '>
         <Link to='/'>
-          <span className='text-6xl md:text-[50px]'>
+          <span className='text-6xl md:text-[50px] lg:text-7xl xl:text-8xl'>
                 FireFenix
           </span>
         </Link>
@@ -25,9 +25,12 @@ function Navbar() {
 
         {navLinks.map((nav) => (
           <Link to={`/${nav.link}`} key={nav.id}>
-            <li key={nav.id} className="cursor-pointer py-4 text-[25px] md:text-[18px]">
-              {nav.title}
-            </li>
+            <button className='focus:underline underline-offset-1 '>
+
+              <li key={nav.id} className="focus:underline cursor-pointer py-4 text-[25px] md:text-[18px]  lg:text-2xl">
+                {nav.title}
+              </li>
+            </button>
           </Link>
         ))}
 
