@@ -1,5 +1,5 @@
 # FireFenix
-The Cripto-Artist.
+The Cripto-Artist, the presentation site.
 
 
 ## About the site
