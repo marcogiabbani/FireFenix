@@ -1,9 +1,6 @@
 # FireFenix
 The Cripto-Artist.
 
-----
-
-<br>
 
 ## About the site
 
