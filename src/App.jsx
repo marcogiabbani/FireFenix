@@ -7,7 +7,7 @@ import About from './components/About';
 
 function App() {
   return (
-    <div className='h-screen flex flex-col'>
+    <div className='h-screen flex flex-col md:px-5 lg:px-8'>
       <Router>
         <Navbar />
         <Routes>
