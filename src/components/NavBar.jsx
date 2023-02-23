@@ -10,22 +10,22 @@ function Navbar() {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="min-w-[250px] max-h-20 flex justify-between md:px-5 md:py-3 md:w-auto">
+    <nav className="min-w-[250px] max-h-20 flex justify-between md:px-5 md:py-3 md:w-auto lg:max-h-max lg:my-4">
 
       <div className='w-10/12 sm:w-2/3 md:w-2/3 '>
         <Link to='/'>
-          <span className='text-6xl md:text-[50px]'>
+          <span className='text-6xl md:text-[50px] lg:text-[5rem] lg:pl-3'>
                 FireFenix
           </span>
         </Link>
       </div>
 
       {/* big screen */}
-      <ul className="hidden sm:flex justify-between list-none items-center sm:w-1/3 md:w-[27%] md:justify-between md:pr-5">
+      <ul className="hidden sm:flex justify-between list-none items-center sm:w-1/3 md:w-[27%] md:justify-between md:pr-5 lg:pt-5 lg:pr-7">
 
         {navLinks.map((nav) => (
           <Link to={`/${nav.link}`} key={nav.id}>
-            <li key={nav.id} className="cursor-pointer py-4 text-[25px] md:text-[18px]">
+            <li key={nav.id} className="cursor-pointer py-4 text-[25px] md:text-[18px] lg:text-3xl">
               {nav.title}
             </li>
           </Link>
