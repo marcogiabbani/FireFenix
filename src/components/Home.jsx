@@ -9,7 +9,7 @@ function Home() {
       <div className="overflow-y-scroll snap snap-y snap-mandatory h-1/2 my-auto flex flex-col md:h-[80%] lg:m-0">
         {artDisplay.map((painting) => {
           return (
-            <div key={painting.id} className="snap-start h-full flex-shrink-0 w-auto flex items-center justify-center px-2 lg:py-6">
+            <div key={painting.id} className="snap-start h-full flex-shrink-0 w-auto flex items-center justify-center px-2 sm:py-3 lg:py-6">
               <img src={`${painting.content}`} className='max-h-[100%]' />
             </div>)
         })}
