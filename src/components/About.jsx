@@ -1,5 +1,5 @@
 import React from 'react';
-import { Fran } from '../assets/index'
+import { Ser } from '../assets/index'
 
 function About() {
   return (
@@ -21,7 +21,7 @@ function About() {
 
 
       <div className='ss:flex ss:justify-center sm:w-[80%] sm:m-auto md:flex-col md:w-auto md:pr-6 md:h-[100%]'>
-        <img src={`${Fran}`} alt="fran" className='px-2 pt-2 ss:w-1/2  md:w-auto md:h-max'/>
+        <img src={`${Ser}`} alt="ser" className='px-2 pt-2 ss:w-1/2  md:w-auto md:h-max'/>
       </div>
 
 

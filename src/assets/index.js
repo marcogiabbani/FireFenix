@@ -14,6 +14,7 @@ import Estertor from './ESTERTOR.jpg'
 import Rubi from './RUBI.jpg'
 import NeueHaasGrotDisp55Roman from './Neue Haas Grot Disp-55 Roman.otf'
 import NeueHaasGrotDisp65Medium from './Neue Haas Grot Disp-65 Medium.otf'
+import Ser from './ser.jpg'
 
 
 
@@ -33,5 +34,6 @@ export {
   Estertor,
   Rubi,
   NeueHaasGrotDisp55Roman,
-  NeueHaasGrotDisp65Medium
+  NeueHaasGrotDisp65Medium,
+  Ser
 }
