@@ -10,9 +10,9 @@ function Navbar() {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="min-w-[250px] max-h-20 flex justify-between sm:px-5 md:py-3 md:w-auto lg:max-h-fit  lg:pt-6">
+    <nav className=" bg-white min-w-[250px] w-full h-[12vh] flex justify-between fixed sm:px-5 md:py-3 md:w-auto lg:max-h-fit  lg:pt-6">
 
-      <div className='w-10/12 sm:w-2/3 md:w-2/3 '>
+      <div className='m-auto w-10/12 sm:w-2/3 md:w-2/3 '>
         <Link to='/'>
           <span className='text-6xl md:text-[50px] lg:text-7xl xl:text-8xl'>
                 FireFenix
@@ -45,7 +45,7 @@ function Navbar() {
 
 
         <div className={`${toggle ? 'flex' : 'hidden'} 
-          absolute justify-center top-20 left-0 w-full min-w-[140px] bg-white ml-2 opacity-90`}>
+          absolute  top-32 justify-center left-0 pr-3 w-full min-w-[140px] bg-white opacity-90`}>
 
           <ul className="flex flex-col items-center">
 

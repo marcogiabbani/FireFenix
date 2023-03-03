@@ -15,5 +15,11 @@ module.exports = {
       xxl: '3000px'
     }
   },
-  plugins: [],
+  corePlugins: {
+    aspectRatio: false,
+  },
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+    // ...
+  ],
 }

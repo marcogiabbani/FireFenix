@@ -14,12 +14,16 @@
 @font-face {
     font-family: "NeueHaasGrotDisp55Roman";
     src: local("NeueHaasGrotDisp55Roman"),
-      url("../src/assets/Neue\ Haas\ Grot\ Disp-55\ Roman.otf") format("truetype");
+      url("../src/assets/NeueHaasGrotDisp55Roman.otf") format("truetype");
   }
 
   @font-face {
     font-family: "NeueHaasGrotDisp65Medium";
     src: local("NeueHaasGrotDisp65Medium"),
-      url("../src/assets/Neue\ Haas\ Grot\ Disp-65\ Medium.otf") format("truetype");
+      url("../src/assets/NeueHaasGrotDisp65Medium.otf") format("truetype");
   }
+
+
+
+
   

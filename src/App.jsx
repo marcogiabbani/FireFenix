@@ -7,14 +7,20 @@ import About from './components/About';
 
 function App() {
   return (
-    <div className='h-screen flex flex-col md:px-5 lg:px-8'>
+    <div>
       <Router>
-        <Navbar />
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/contact" element={<Contact />} />
-          <Route exact path="/about" element={<About />} />
-        </Routes>
+        <div className='h-screen flex flex-col justify-between px-2'>
+          <div>
+            <Navbar />
+          </div>
+          <div>
+            <Routes>
+              <Route exact path="/" element={<Home />} />
+              <Route exact path="/contact" element={<Contact />} />
+              <Route exact path="/about" element={<About />} />
+            </Routes>
+          </div>
+        </div>
       </Router>
     </div>
   );
