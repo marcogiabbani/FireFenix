@@ -7,11 +7,14 @@ function Home() {
   return (
     <div className='bg-white h-[85vh] flex flex-col justify-between'>
 
-
       <div className='bg-white px-2 py-[8vh] h-[80vh] w-full overflow-y-auto content-center'>
         {artDisplay.map((painting) => {
           return (
-            <div key={painting.id} className="flex flex-col justify-evenly pb-[16vh]">
+            <div
+              key={painting.id}
+              className="flex flex-col justify-evenly pb-[16vh]
+                xs:max-w-[70%] xs:m-auto
+              ">
               <img src={`${painting.content}`} className=''/>
             </div>)
         })}
