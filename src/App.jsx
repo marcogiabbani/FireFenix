@@ -9,7 +9,8 @@ function App() {
   return (
     <div>
       <Router>
-        <div className='h-screen flex flex-col justify-between px-2'>
+        <div className='h-screen flex flex-col justify-between px-2
+          '>
           <div>
             <Navbar />
           </div>
