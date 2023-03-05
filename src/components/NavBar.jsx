@@ -15,40 +15,48 @@ function Navbar() {
         bg-white min-w-[250px] w-full h-[12vh] flex justify-between
         sm:px-5 sm:min-h-[100px] sm:pt-2
         md:py-3 md:w-auto
-        lg:max-h-fit  lg:pt-6
+        lg:max-h-fit lg:pt-6 lg:bg-transparent
+          lg:fixed lg:top-0 lg:left-0 lg:right-0
       ">
 
-      <div className='m-auto w-10/12 sm:w-2/3 md:w-2/3 '>
+      <div className='m-auto w-10/12 sm:w-2/3 md:w-2/3
+        '>
         <Link to='/'>
-          <span className='text-6xl md:text-[50px] lg:text-7xl xl:text-8xl'>
+          <span className='text-6xl md:text-8xl lg:text-7xl xl:text-8xl
+          l'>
                 FireFenix
           </span>
         </Link>
       </div>
 
       {/* big screen */}
-      <ul
-        className="
+      <div className='flex flex-col justify-center w-1/3
+
+      '>
+
+        <ul
+          className="
           hidden sm:flex justify-between list-none items-center
-          sm:w-1/3
-          md:w-[27%] md:justify-between md:pr-5
-          lg:pt-5 lg:pr-7">
+          lg:pl-28
+          xl:pl-56 xl:pr-10
+">
 
-        {navLinks.map((nav) => (
-          <Link to={`/${nav.link}`} key={nav.id}>
-            <button className='focus:underline underline-offset-1 '>
+          {navLinks.map((nav) => (
+            <Link to={`/${nav.link}`} key={nav.id}>
+              <button className='focus:underline underline-offset-1 '>
 
-              <li key={nav.id}
-                className="focus:underline cursor-pointer py-4 text-[25px]
-                  md:text-[18px]
+                <li key={nav.id}
+                  className="focus:underline cursor-pointer py-4 text-[25px]
+                  md:text-3xl
                   lg:text-2xl">
-                {nav.title}
-              </li>
-            </button>
-          </Link>
-        ))}
+                  {nav.title}
+                </li>
+              </button>
+            </Link>
+          ))}
 
-      </ul>
+        </ul>
+      </div>
 
       {/* small screens */}
       <div className="flex justify-between sm:hidden">

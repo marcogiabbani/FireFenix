@@ -10,13 +10,15 @@ function Footer() {
             flex flex-col text-xl text-center
           xs:min-h-[32px] xs:h-8 xs:flex-row xs:justify-between
           sm:min-h-[160px] sm:flex-col sm:max-w-fit sm:text-left
-          md:text-base'>
+          md:text-base
+          lg:min-h-[120px]'>
         {socialMedia.map((socialNetwork) => {
           return (
             <a target="_blank" href={`${socialNetwork.link}`}
               key={socialNetwork.id} rel="noreferrer">
-              <div className="py-0.5">
-                <span>{socialNetwork.title}</span>
+              <div className="py-0.5
+                lg:py-0">
+                <span className='lg:text-sm'>{socialNetwork.title}</span>
               </div>
             </a>
           )

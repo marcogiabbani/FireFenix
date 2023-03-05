@@ -21,9 +21,12 @@ function Home() {
               className="flex flex-col justify-evenly py-[10vh]
                 xs:max-w-[70%] xs:m-auto
                 md:py-[13vh]
+                lg:py-[7vh] lg:w-full
 
               ">
-              <img src={`${painting.content}`} className=''/>
+              <img src={`${painting.content}`}
+                className='lg:object-scale-down lg:h-[60vh] lg:w-[55%]
+                  lg:m-auto'/>
             </div>)
         })}
       </div>
