@@ -5,12 +5,14 @@ function About() {
   return (
     <div
       className='flex flex-col justify-between h-[88vh]  w-full
-        sm:flex-row sm:min-h-[600px] sm:mt-[80px]'>
+        sm:flex-row sm:min-h-[600px] sm:mt-[80px]
+        xl:'>
 
 
       <div
         className='flex flex-col justify-between
-          sm:justify-evenly sm:w-3/5'>
+          sm:justify-evenly sm:w-3/5
+          xl:w-5/6 xl:pl-4 xl:justify-start xl:pt-52'>
 
         <p className='text-3xl font-[NeueHaasGrotDisp65Medium]
           sm:text-4xl'>
@@ -18,7 +20,8 @@ function About() {
         </p>
 
         <div className='text-xl sm:text-3xl'>
-          <p className='text-justify'>
+          <p className='text-justify
+            xl:pt-16'>
             He studied Graphic Design at the University of Buenos Aires;
             and also he developed and perfects most of his work. Many of
             his works are based on the manifestation of color, and his
@@ -33,7 +36,8 @@ function About() {
       </div>
 
       <div className='flex flex-col justify-center
-        sm:w-2/5'>
+        sm:w-2/5
+        lg:w-[30%]'>
         <img src={`${Ser}`} alt="ser" className='sm:'/>
       </div>
 
