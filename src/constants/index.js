@@ -40,12 +40,12 @@ export const artDisplay = [
     content: HombreSolo
   },
   {
-    id: 'BlueSea',
-    content: BlueSea
-  },
-  {
     id: 'Angel',
     content: Angel
+  },
+  {
+    id: 'BlueSea',
+    content: BlueSea
   },
   {
     id: 'Descanso',
