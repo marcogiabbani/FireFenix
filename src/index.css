@@ -24,6 +24,47 @@
   }
 
 
+.firefenix-F {
+  animation: color-change-F 0.15s infinite;
+}
+.firefenix-I {
+  animation: color-change-I 0.15s infinite;
+}
 
+.firefenix-R {
+  animation: color-change-R 0.15s infinite;
+}
+
+.firefenix-E {
+  animation: color-change-R 0.15s infinite;
+}
+
+@keyframes color-change-I {
+  0% { color: red; }
+  33% { color: lightskyblue; }
+  66% { color: yellow; }
+  100% { color: red; }
+}
+
+@keyframes color-change-F {
+  0% { color: violet; }
+  33% { color: green; }
+  66% { color: yellow; }
+  100% { color: violet; }
+}
+
+@keyframes color-change-R {
+  0% { color: yellow; }
+  33% { color: blue; }
+  66% { color: pink; }
+  100% { color: yellow; }
+}
+
+@keyframes color-change-E {
+  0% { color: green; }
+  33% { color: lightskyblue; }
+  66% { color: darkorange; }
+  100% { color: green; }
+}
 
   

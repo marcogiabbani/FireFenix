@@ -22,10 +22,15 @@ function Navbar() {
       <div className='m-auto w-10/12 sm:w-2/3 md:w-2/3
         '>
         <Link to='/'>
-          <span className='text-6xl md:text-8xl lg:text-7xl xl:text-8xl
-          l'>
-                FireFenix
-          </span>
+          <span
+            className='firefenix-F text-6xl md:text-8xl lg:text-7xl xl:text-8xl'>F</span>
+          <span
+            className='firefenix-I text-6xl md:text-8xl lg:text-7xl xl:text-8xl'>i</span>
+          <span
+            className='firefenix-R text-6xl md:text-8xl lg:text-7xl xl:text-8xl'>r</span>
+          <span
+            className='firefenix-E text-6xl md:text-8xl lg:text-7xl xl:text-8xl'>e</span>
+          <span className=' text-6xl md:text-8xl lg:text-7xl xl:text-8xl'>Fenix</span>
         </Link>
       </div>
 
