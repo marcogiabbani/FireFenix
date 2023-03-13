@@ -1,5 +1,7 @@
 import React from 'react';
-import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
+import {
+  Route, Routes, HashRouter
+} from 'react-router-dom';
 import Navbar from './components/NavBar';
 import Home from './components/Home';
 import Contact from './components/Contact';
@@ -8,7 +10,8 @@ import About from './components/About';
 function App() {
   return (
     <div>
-      <Router>
+      <HashRouter>
+
         <div className='h-screen flex flex-col justify-between px-2
           '>
           <div className=''>
@@ -22,7 +25,7 @@ function App() {
             </Routes>
           </div>
         </div>
-      </Router>
+      </HashRouter>
     </div>
   );
 }
